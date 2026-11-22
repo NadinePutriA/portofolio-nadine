@@ -776,7 +776,7 @@ export default function App() {
                     <img
                       src="/images/photo-profile.jpg"
                       alt="Nadine Putri Aulia"
-                      className="w-full h-full object-cover object-top"
+                      className="w-full h-full object-cover object-[center_75%] sm:object-top"
                       onError={(e) => {
                         e.target.onerror = null;
                         e.target.style.display = 'none';
@@ -792,12 +792,6 @@ export default function App() {
                       <div className="text-[10px] text-white/80">Data Science Student</div>
                     </div>
 
-                  </div>
-
-                  {/* Profile Metadata Card */}
-                  <div className="text-center pt-1 space-y-0.5">
-                    <div className="text-xs font-bold text-[#303E4D]">Nadine Putri Aulia</div>
-                    <div className="text-[10px] text-[#526B86] font-medium">Data Analyst Candidate</div>
                   </div>
 
                 </div>
@@ -1235,7 +1229,7 @@ export default function App() {
                     <span
                       key={sIdx}
                       className="inline-flex items-center bg-white text-[#303E4D] px-2.5 py-1.5 rounded-md text-xs font-medium border border-[#303E4D]/10 shadow-sm hover:border-[#526B86]/50 transition-colors"
-                    >iyaa
+                    >
                       {s.name}
                     </span>
                   ))}
