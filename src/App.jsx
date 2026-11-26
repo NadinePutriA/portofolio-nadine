@@ -1422,7 +1422,7 @@ export default function App() {
               
               {/* Email */}
               <a
-                href="mailto:nadineputrial1@gmail.com"
+                href="mailto:nadineputria11@gmail.com"
                 className="p-4 rounded-xl bg-white/10 hover:bg-white/20 border border-white/10 transition-colors flex items-center gap-3 text-white text-xs font-semibold"
               >
                 <div className="p-2 rounded-lg bg-[#526B86]">
@@ -1430,7 +1430,7 @@ export default function App() {
                 </div>
                 <div>
                   <div className="text-[10px] text-white/70 uppercase font-bold">Email</div>
-                  <div>nadineputrial1@gmail.com</div>
+                  <div>nadineputria11@gmail.com</div>
                 </div>
               </a>
 
